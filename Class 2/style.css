@@ -1,0 +1,20 @@
+p{
+    color:darkgreen;
+}  
+.container {
+
+    width: 100%;
+    padding: 10px;
+    border: 10px solid seagreen;
+}
+  
+.text {
+    color:red;
+    padding: 10px;
+    border: 10px dotted blue;
+    margin: 50px;
+  }
+
+#heading2 {
+    color: blueviolet;
+  }
