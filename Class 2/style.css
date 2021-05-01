@@ -9,6 +9,7 @@ p{
 }
   
 .text {
+    width: 100%;
     color:red;
     padding: 10px;
     border: 10px dotted blue;
