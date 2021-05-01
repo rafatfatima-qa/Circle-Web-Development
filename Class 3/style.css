@@ -1,19 +1,32 @@
 
   .first {
-    background-color: blueviolet;
+    background-color: rgb(233, 222, 243);
+    text-align: center;
+    color: brown;
+    text-decoration: overline;
+    text-shadow: 0px 2px blue;
+    font-size:x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
     
   }
   .secnd {
     background-color: rgb(235, 83, 13);
+    font-size:x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
   }
 
   .third {
     background-color: rgb(30, 17, 226);
+    font-size:x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
   }
 
   .fourth {
     background-color: rgb(240, 14, 14);
+    font-size:x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
   }
