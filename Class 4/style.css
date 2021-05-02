@@ -1,20 +1,29 @@
-.container {
+.first-div {
 
     width: 100%;
     padding: 10px;
     border: 10px solid seagreen;
 }
-div p{
+.third-div p{
 
     color:rgb(87, 6, 240);
     background-color: cyan;
     text-align: center;
 }
-.container p {
+.third-div + p {
+    background-color: yellow;
+    font-size: x-large;
+  }
+
+.first-div p {
     background-color: darkgoldenrod;
-    border:groove blueviolet;
+    border:groove blueviolet; 
 
 }
-.second-div span{
+.fourth-div ~ p {
+    background-color: rgb(238, 10, 169);
+  }
+.fifth-div span{
     font-size: 32px;
 }
+
