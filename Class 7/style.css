@@ -1,0 +1,25 @@
+.div1 {
+   
+    float: right;
+    border: 5px solid seagreen;
+    background-color: burlywood;
+    display:block;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+    
+}
+
+.div2 {
+
+    float: left;
+    border: 5px solid rgb(248, 50, 1);
+    background-color: burlywood;
+    display:block;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+

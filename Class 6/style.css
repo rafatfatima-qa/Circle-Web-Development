@@ -1,0 +1,25 @@
+.first-div {
+
+    display:block;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+    font-family: 'Itim', cursive;
+    border: 2px solid black;
+
+}
+#heading1{
+    font-family: 'Itim', cursive;
+    text-align: center;
+}
+.button {
+    background-color: #e5e90a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
