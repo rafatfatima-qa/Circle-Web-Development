@@ -1,0 +1,26 @@
+.first-div {
+
+    width: 100%;
+    padding: 10px;
+    
+    font-family: 'Itim', cursive;
+    border: 10px solid seagreen;
+}
+.second-div {
+
+    width: 100%;
+    padding: 10px;
+    
+    font-family: 'Goblin One', cursive;
+    
+}
+
+.third-div {
+
+    width: 100%;
+    padding: 10px;
+    
+    font-family: 'Source Code Pro', monospace;
+    border: 10px solid rgb(63, 46, 139);
+}
+
