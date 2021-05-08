@@ -2,9 +2,10 @@
    
     border: 5px solid seagreen;
     background-color: burlywood;
+    height: 300px;
     padding: 10px;
     display:flex;
-    justify-content:flex-end;
+    align-items: center;
     /*shorthand property
     flex-flow: row nowrap;*/
 
