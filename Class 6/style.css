@@ -7,11 +7,22 @@
     margin-top: 200px;
     font-family: 'Itim', cursive;
     border: 2px solid black;
+    
+}
+.link-class{
 
+    float: right;
 }
 #heading1{
     font-family: 'Itim', cursive;
     text-align: center;
+}
+.myform{
+    display: inline-block;
+    text-align: right;
+    clear: left;
+    width: 150px;
+    text-align: right; 
 }
 .button {
     background-color: #e5e90a;

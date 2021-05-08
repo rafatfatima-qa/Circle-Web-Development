@@ -1,0 +1,15 @@
+.flex-container {
+   
+    border: 5px solid seagreen;
+    background-color: burlywood;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    
+    
+}
+.flex-container > div{
+
+
+}
