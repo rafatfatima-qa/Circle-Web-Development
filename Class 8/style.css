@@ -4,12 +4,16 @@
     background-color: burlywood;
     padding: 10px;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap:nowrap;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     
     
 }
 .flex-container > div{
 
-
+width: 300px;
+background-color: cornsilk;
+margin: 10px;
+padding: 10px 10px 10px 10px;
 }
