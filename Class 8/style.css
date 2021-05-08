@@ -2,7 +2,7 @@
    
     border: 5px solid seagreen;
     background-color: burlywood;
-    height: 300px;
+    height: 200px;
     padding: 10px;
     display:flex;
     align-content: center;
@@ -21,7 +21,7 @@
    
     border: 5px solid seagreen;
     background-color: burlywood;
-    height: 300px;
+    height: 200px;
     padding: 10px;
     display:flex;
     align-items: center;
