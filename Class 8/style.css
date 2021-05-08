@@ -4,7 +4,12 @@
     background-color: burlywood;
     padding: 10px;
     display:flex;
-    flex-direction: row;
+    justify-content:flex-end;
+    /*shorthand property
+    flex-flow: row nowrap;*/
+
+    /*full form of properties*/
+    border: row;
     flex-wrap:nowrap;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     
@@ -13,7 +18,7 @@
 .flex-container > div{
 
 width: 300px;
-background-color: cornsilk;
+background-color: rgb(160, 109, 33);
 margin: 10px;
 padding: 10px 10px 10px 10px;
 }
