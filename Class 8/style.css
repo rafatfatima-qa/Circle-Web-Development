@@ -1,4 +1,23 @@
-.flex-container {
+.flex-container1 {
+   
+    border: 5px solid seagreen;
+    background-color: burlywood;
+    height: 300px;
+    padding: 10px;
+    display:flex;
+    align-content: center;
+    /*shorthand property
+    flex-flow: row nowrap;*/
+
+    /*full form of properties*/
+    border: row;
+    flex-wrap:nowrap;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    margin: 20px;
+    
+    
+}
+.flex-container2 {
    
     border: 5px solid seagreen;
     background-color: burlywood;
@@ -13,13 +32,22 @@
     border: row;
     flex-wrap:nowrap;
     font-family:Georgia, 'Times New Roman', Times, serif ;
+    margin: 20px;
     
     
 }
-.flex-container > div{
+.flex-container1 > div{
 
 width: 300px;
 background-color: rgb(160, 109, 33);
 margin: 10px;
 padding: 10px 10px 10px 10px;
 }
+
+.flex-container2 > div{
+
+    width: 300px;
+    background-color: rgb(160, 33, 33);
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    }
