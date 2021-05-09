@@ -3,21 +3,65 @@
     display:grid;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    grid-template-columns: 200px 200px 50px 200px;
+    grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: 100px 100px 100px 100px;   
+    justify-content: center;
+    align-content: center;
     border: 5px solid rgb(245, 5, 5);
     background-color: rgb(135, 205, 222);
-    height: 300px;
+    height: 900px;
     padding: 10px;
-    
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .grid-container > div{
 
-    width: 100px;
     
-    background-color: rgb(160, 33, 122);
+    /*background-color: rgb(160, 33, 122);*/
     margin: 10px;
     padding: 10px 10px 10px 10px;
     } 
 
+.first-div{
+
+    grid-column: 1 / span 4;
+}
+
+.second-div{
+
+    grid-column: 1 / span 3;
+}
+
+.third-div{
+
+    grid-area: 1 / 2 /4 / 5;
+}
+/*mobile screen*/
+@media screen and (max-width: 767px){
+    .fourth-div{
+
+    background-color: crimson;
+    border: cyan dotted;
+    }
+}
+
+/*tablet screen*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .fourth-div{
+    
+        background-color: blue;
+        border: goldenrod dashed;
+    }
+}
+
+
+/*desktop screen*/
+@media screen and (min-width: 1024px){
+
+    .fourth-div{
+    
+        background-color: rgb(13, 230, 96);
+        border: fuchsia dashed;
+    }
+}
